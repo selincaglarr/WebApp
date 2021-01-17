@@ -12,7 +12,6 @@ of the key-value pairs stored on the req-body object. In this case, we’ll be a
 city name the user typed in on the client side.
 ```
 - npm install body-parser --save
-- npm install request --save
 - npm i -D nodemon
    -  "dev": "nodemon server.js"
    
