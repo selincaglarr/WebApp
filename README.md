@@ -17,4 +17,4 @@ city name the user typed in on the client side.
    -  "dev": "nodemon server.js"
    
    
- [Siteye buradan ulasabilirsiniz](https://x1p16.sse.codesandbox.io/)
+ [Siteye buradan ulaşabilirsiniz...](https://x1p16.sse.codesandbox.io/)
