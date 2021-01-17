@@ -1,0 +1,10 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.date{
+text-align: right;
+padding-right: 10%;
+}
