@@ -12,13 +12,13 @@ app.set('view engine', 'ejs');
 
 
 app.get('/can-i-go-out', function (req, res) {
-  let today = new Date();
-  let options = {
+  const today = new Date();
+  const options = {
     weekday: "long",
     day: "numeric",
     month: "long"
   };
-  let dayDate = today.toLocaleDateString("tr-TR", options);
+  const dayDate = today.toLocaleDateString("tr-TR", options);
   res.render('index', { dayDate: dayDate });
 
 });

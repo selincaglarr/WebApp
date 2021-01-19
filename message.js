@@ -1,6 +1,6 @@
 module.exports.message = (age, day, hour) => {
   if (age !== Number(age) || age < 0) {
-    return ' Lütfen yaşınızı doğru girdiğinizden emin olun :)';
+    return 'Lütfen yaşınızı doğru girdiğinizden emin olun :)';
   }
   else if (day == 0 || day == 6) {
     return 'Hafta Sonu Dışarıya Çıkamazsınız ';
